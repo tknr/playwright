@@ -1,0 +1,21 @@
+{
+  "name": "playwright",
+  "packageManager": "yarn@4.11.0",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1"
+  },
+  "scripts": {
+    "browser:chrome": "playwright test browser.test.ts --headed --project=chromium",
+    "browser:firefox": "playwright test browser.test.ts --headed --project=firefox",
+    "browser:safari": "playwright test browser.test.ts --headed --project=webkit",
+    "browser:mobile-chrome": "playwright test browser.test.ts --headed --project=Mobile-Chrome",
+    "browser:mobile-safari": "playwright test browser.test.ts --headed --project=Mobile-Safari",
+    "browser:local-edge": "playwright test browser.test.ts --headed --project=Microsoft-Edge",
+    "browser:local-chrome": "playwright test browser.test.ts --headed --project=Google-Chrome"
+  },
+  "volta": {
+    "node": "24.11.1",
+    "yarn": "4.11.0"
+  }
+}
