@@ -3,7 +3,13 @@
 ## ref
 
 Scoop - Apps (volta) <https://scoop.sh/#/apps?q=volta>
-Node.js$B%P!<%8%g%s4IM}(B Volta$B$r(BWindows$B$K%$%s%9%H!<%k$9$k(B <https://zenn.dev/longbridge/articles/30c70144c97d32>
+Node.jsバージョン管理 VoltaをWindowsにインストールする <https://zenn.dev/longbridge/articles/30c70144c97d32>
 Installation | Playwright <https://playwright.dev/docs/intro>
-Playwright$B$rMQ$$$F(BWindows$B4D6-$G(BSafari$B$r%(%_%e%l!<%H$9$k(B <https://zenn.dev/kagaya_22/articles/8e4569618f8e0b>
+Playwrightを用いてWindows環境でSafariをエミュレートする <https://zenn.dev/kagaya_22/articles/8e4569618f8e0b>
+
+## example
+
+```
+yarn browser:mobile-safari
+```
 
